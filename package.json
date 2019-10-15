@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "\"# Blog-List-Application\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnhou13579/Blog-List-Application.git"
+  },
+  "author": "Jonathan Hou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnhou13579/Blog-List-Application/issues"
+  },
+  "homepage": "https://github.com/johnhou13579/Blog-List-Application#readme"
+}
