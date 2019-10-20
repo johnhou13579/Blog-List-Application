@@ -12,9 +12,9 @@ const blogSchema = mongoose.Schema({
   likes: Number
 })
 
-const Blog = mongoose.model('Blog', blogSchema)
+const Blog = mongoose.model('Note', blogSchema)
 
-const mongoUrl = 'mongodb://localhost/bloglist'
+const mongoUrl = 'mongodb+srv://admin:snowleopard@cluster0-ghplz.mongodb.net/person-app?retryWrites=true&w=majority'
 mongoose.connect(mongoUrl, { useNewUrlParser: true })
 
 app.use(cors())
