@@ -3,7 +3,14 @@ const dummy = (blogs) => {
   }
   
 const totalLikes=(input)=>{
-  return input[0].likes;
+    var temp=0
+
+    for(var i in input){
+      temp= temp+ parseInt(input[i].likes);
+    }
+
+    return temp;
+
 }
 
   module.exports = {
