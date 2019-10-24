@@ -3,13 +3,8 @@ const app = express('./app')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const mongoose = require('mongoose')
-
-const blogSchema = mongoose.Schema({
-  title: String,
-  author: String,
-  url: String,
-  likes: Number
-})
+const api = supertest(app)
+const Blog = require('../models/blog')
 
 const Blog = mongoose.model('Note', blogSchema)
 
